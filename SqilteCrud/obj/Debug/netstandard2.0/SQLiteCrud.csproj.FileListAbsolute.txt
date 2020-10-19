@@ -1,0 +1,11 @@
+D:\visual_studio\Library\SqilteCrud\bin\Debug\netstandard2.0\SQLiteCrud.deps.json
+D:\visual_studio\Library\SqilteCrud\bin\Debug\netstandard2.0\SQLiteCrud.dll
+D:\visual_studio\Library\SqilteCrud\bin\Debug\netstandard2.0\SQLiteCrud.pdb
+D:\visual_studio\Library\SqilteCrud\obj\Debug\netstandard2.0\SQLiteCrud.csprojAssemblyReference.cache
+D:\visual_studio\Library\SqilteCrud\obj\Debug\netstandard2.0\SQLiteCrud.AssemblyInfoInputs.cache
+D:\visual_studio\Library\SqilteCrud\obj\Debug\netstandard2.0\SQLiteCrud.AssemblyInfo.cs
+D:\visual_studio\Library\SqilteCrud\obj\Debug\netstandard2.0\SQLiteCrud.dll
+D:\visual_studio\Library\SqilteCrud\obj\Debug\netstandard2.0\SQLiteCrud.pdb
+D:\visual_studio\Library\SqilteCrud\bin\Debug\netstandard2.0\QueryBuilder.dll
+D:\visual_studio\Library\SqilteCrud\bin\Debug\netstandard2.0\QueryBuilder.pdb
+D:\visual_studio\Library\SqilteCrud\obj\Debug\netstandard2.0\SQLiteCrud.csproj.CopyComplete

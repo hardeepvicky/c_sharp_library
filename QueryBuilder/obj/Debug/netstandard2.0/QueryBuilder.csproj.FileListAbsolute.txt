@@ -1,0 +1,8 @@
+D:\visual_studio\Library\QueryBuilder\bin\Debug\netstandard2.0\QueryBuilder.deps.json
+D:\visual_studio\Library\QueryBuilder\bin\Debug\netstandard2.0\QueryBuilder.dll
+D:\visual_studio\Library\QueryBuilder\bin\Debug\netstandard2.0\QueryBuilder.pdb
+D:\visual_studio\Library\QueryBuilder\obj\Debug\netstandard2.0\QueryBuilder.csprojAssemblyReference.cache
+D:\visual_studio\Library\QueryBuilder\obj\Debug\netstandard2.0\QueryBuilder.AssemblyInfoInputs.cache
+D:\visual_studio\Library\QueryBuilder\obj\Debug\netstandard2.0\QueryBuilder.AssemblyInfo.cs
+D:\visual_studio\Library\QueryBuilder\obj\Debug\netstandard2.0\QueryBuilder.dll
+D:\visual_studio\Library\QueryBuilder\obj\Debug\netstandard2.0\QueryBuilder.pdb

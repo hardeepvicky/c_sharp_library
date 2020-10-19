@@ -1,0 +1,8 @@
+D:\visual_studio\Library\SqilteCrud\bin\Debug\netstandard2.0\SqilteCrud.deps.json
+D:\visual_studio\Library\SqilteCrud\bin\Debug\netstandard2.0\SqilteCrud.dll
+D:\visual_studio\Library\SqilteCrud\obj\Debug\netstandard2.0\SqilteCrud.csprojAssemblyReference.cache
+D:\visual_studio\Library\SqilteCrud\obj\Debug\netstandard2.0\SqilteCrud.AssemblyInfoInputs.cache
+D:\visual_studio\Library\SqilteCrud\obj\Debug\netstandard2.0\SqilteCrud.AssemblyInfo.cs
+D:\visual_studio\Library\SqilteCrud\bin\Debug\netstandard2.0\SqilteCrud.pdb
+D:\visual_studio\Library\SqilteCrud\obj\Debug\netstandard2.0\SqilteCrud.dll
+D:\visual_studio\Library\SqilteCrud\obj\Debug\netstandard2.0\SqilteCrud.pdb
