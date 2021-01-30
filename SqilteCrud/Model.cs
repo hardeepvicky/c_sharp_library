@@ -9,16 +9,14 @@ namespace SQLiteCrud
         public long ID;
 
         protected SortedDictionary<String, String> data;
-        protected string primaryField = "";
+        protected string primaryField = "id";
 
         private String table;
         private static Database db;
 
-
         public Model(String db_file, String table)
         {
-            this.table = table;
-
+            this.table = table;            
             initDatabase(db_file);
         }
 
@@ -152,5 +150,21 @@ namespace SQLiteCrud
         {
 
         }
+
+        public Dictionary<String, List<Dictionary<String, Object>>> get(QueryBuilder.Select select)
+        {
+            this.beforeGet(select);
+            var q = select.get();
+
+            var records = db.select(q);
+
+            return records;
+        }
+
+        public void beforeGet(QueryBuilder.Select select)
+        { 
+
+        }
+        
     }
 }

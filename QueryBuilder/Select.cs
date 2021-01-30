@@ -160,7 +160,7 @@ namespace QueryBuilder
         private string join_op;
         private Dictionary<string, string> conditions;
 
-        public Where(string op)
+        public Where(string op = "AND")
         {
             this.join_op = op;
             conditions = new Dictionary<string, string>();
@@ -170,6 +170,12 @@ namespace QueryBuilder
         {   
             conditions.Add(field + op, value);
 
+            return this;
+        }
+
+        public Where addList(String field, List<String> list)
+        {
+            conditions.Add(field + " IN ", "(" + String.Join(",", list) + ")");
             return this;
         }
 
