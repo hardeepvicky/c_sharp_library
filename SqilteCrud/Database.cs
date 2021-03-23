@@ -37,8 +37,6 @@ namespace SQLiteCrud
         ~Database()
         {
             Console.WriteLine("database : closed");
-
-            this.conn.Close();
         }
 
         public Dictionary<String, List<Dictionary<String, Object>>> select(String q)
@@ -58,11 +56,13 @@ namespace SQLiteCrud
                     for (int i = 0; i < r.FieldCount; i++)
                     {
                         var table = r.GetTableName(i);
+                        if (table.Equals(""))
+                        {
+                            table = "0";
+                        }
                         var field = r.GetName(i);
                         var value = r.GetValue(i);
                         
-                        Console.WriteLine(table + " : " + field + " : " + value);
-
                         if (!records.ContainsKey(table))
                         {
                             records[table] = new List<Dictionary<String, Object>>();

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace ConsumeSqliteCrud
 {
@@ -8,14 +9,17 @@ namespace ConsumeSqliteCrud
         {
             var model = new SQLiteCrud.Model("db.sqlite", "cars");
 
-            var result = model.insert(new System.Collections.Generic.SortedDictionary<Object, Object>()
+            var group_records = model.find(new QueryBuilder.Select(model.table));
+
+            var records = group_records[model.table];
+
+            foreach (var record in records)
             {
-                { "name", "Platina" },
-                { "price", "2000" },
-            });
-
-            Console.WriteLine(result);
-
+                SortedDictionary<Object, Object> r = new SortedDictionary<object, object>();
+                r["price"] = 100;
+                model.update(r, long.Parse(record["id"].ToString()) );
+            }
+            
             var log = model.getDatabase().queryLogCSV();
             Console.WriteLine(log);
         }

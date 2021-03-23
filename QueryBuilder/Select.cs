@@ -14,7 +14,9 @@ namespace QueryBuilder
         {
             this.table = table;
 
-            this.fields = this.groupby = new List<string>();
+            this.fields = new List<string>();
+
+            this.groupby = new List<string>();
 
             this.orderby = new Dictionary<string, string>();
 
@@ -50,12 +52,11 @@ namespace QueryBuilder
 
             return this;
         }
-
         public string getGroupBy()
         {
             if (groupby.Count == 0)
             {
-                return "*";
+                return "";
             }
 
             return String.Join(",", groupby);
@@ -75,7 +76,7 @@ namespace QueryBuilder
         {
             if (orderby.Count == 0)
             {
-                return "*";
+                return "";
             }
 
             var list = new List<string>();
